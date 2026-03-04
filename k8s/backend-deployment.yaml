@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: k8s-node-app:v1
+        image: docker.io/maheshsaini/k8s-node-app:latest
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 3000
